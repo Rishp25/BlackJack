@@ -5,7 +5,7 @@ export const AppContext = createContext(null);
 const AppContextProvider = ({ children }) => {
 	const [user, setUser] = useState({
 		name: "",
-		numberOfChips: 1000, // Starting chips
+		numberOfChips: 50000, // Starting chips
 	});
 	const [loggedIn, setLoggedIn] = useState(false);
 

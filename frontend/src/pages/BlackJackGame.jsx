@@ -236,21 +236,21 @@ const BlackjackGame = ({ renderPlayers }) => {
 						<p className="text-white mb-2">Your chips: {user.numberOfChips}</p>
 						<button
 							className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mr-2"
-							onClick={() => placeBet(10)}
+							onClick={() => placeBet(1000)}
 						>
-							Bet 10
+							Bet 1000
 						</button>
 						<button
 							className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded mr-2"
-							onClick={() => placeBet(50)}
+							onClick={() => placeBet(500)}
 						>
-							Bet 50
+							Bet 500
 						</button>
 						<button
 							className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
-							onClick={() => placeBet(100)}
+							onClick={() => placeBet(2000)}
 						>
-							Bet 100
+							Bet 200
 						</button>
 					</div>
 				)}

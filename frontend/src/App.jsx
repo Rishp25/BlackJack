@@ -5,10 +5,7 @@ import Signup from "./pages/Signup";
 import Signin from "./pages/Signin";
 import CreateTable from "./pages/CreateTable";
 import Table from "./pages/Table";
-import PokerGame from "./pages/PokerGame";
-import Table1 from "./pages/Table1";
 import { Toaster } from "react-hot-toast";
-import Table2 from "./pages/Table2";
 
 function App() {
 	const BACKEND_URL = import.meta.env.VITE_DATABASE_URL;

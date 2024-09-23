@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/TableBG.webp";
+import image from "../assets/blackjack_t.jpg";
 import Player from "./Player";
 import BlackjackGame from "./BlackJackGame";
 import { UserProvider } from "./UserContext.jsx";
